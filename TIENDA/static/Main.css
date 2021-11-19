@@ -1,0 +1,49 @@
+#main_music{
+	background: #3B1A13;
+	width: 1320px;
+	height: 200px;
+	margin-bottom: 20px;
+
+}
+
+#footer_music{
+	background: #1F1E1E;
+	width: 1320px;
+	height: 200px;
+}
+
+#logo_music{
+	margin-left: 551px;
+	padding-top: 50px;
+}
+body{
+	background: brown;
+}
+a{
+	font: 16px bold;
+	color: white;
+}
+
+#contenedor_principal{
+	display: flex;
+	margin-bottom: 3px;
+	white-space:nowrap;
+}
+#Register{
+
+	white-space:nowrap;
+
+}
+
+#login{
+	margin-left: 650px;
+	
+
+}
+#About_us{
+	
+	margin-left: 525px;
+	
+	
+
+}

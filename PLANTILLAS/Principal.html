@@ -1,0 +1,26 @@
+{% extends 'Style.html' %}
+
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" type="text/css" href="{% static 'Images.css' %}">
+</head>
+<body>
+	<div>
+	<img src="{% static 'Images/Model_main.jpg' %}" height="300" width="450">
+	<img src="{% static 'Images/Model_main_2.jpg' %}" height="300" width="450" id="image_1">
+	
+	<form action="Logueo" method="POST" >{% csrf_token %}
+		<p>User<input type="text" name="user"></p>
+		<p>Password<input type="text" name="pass"></p>
+		<span ><input type="submit" name="Login_user" value="Login"></span>
+	</form>
+	</div>
+
+</body>
+</html>
+{% endblock %}

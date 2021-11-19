@@ -1,0 +1,19 @@
+{% extends 'admin/base.html' %}
+
+{% block title %} More & Music {% endblock %}
+
+{% load static %}
+ {% block extrahead %}
+       <link rel="shortcut icon" href="{% static 'Images/logo_small.png' %}">
+    {% endblock %}
+{% block extrastyle %}
+	
+	<link rel="stylesheet" type="text/css" href="{% static 'Admin.css' %}">
+
+{% endblock %}
+
+{% block branding %}
+	
+	<img src="{% static 'Images/logo_small.png' %}" >
+
+{% endblock %}

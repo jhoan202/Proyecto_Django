@@ -1,0 +1,33 @@
+form{
+	width: 150px;
+	height: 340px;
+	margin-left: 440px;
+	color: white;
+	padding-right: 30px;
+	margin-bottom: 20px;
+	
+	padding: 5px 100px 50px 90px;
+	background: linear-gradient(to right, black 0% 50%, #1F1E1E 50%);
+}
+
+#create_account{
+
+	font: 36px bold;
+}
+
+input[type="submit"]{
+	margin-left: 4px;
+	background: linear-gradient(blue,red);
+	border-radius: 14px 14px 14px 14px;
+	width: 160px;
+	height: 30px;
+	font: 12px bold;
+}
+input{
+	border-radius: 14px 14px 14px 14px;
+}
+
+select{
+	border-radius: 5px 5px;
+	font: 12px bold;
+}

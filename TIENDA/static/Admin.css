@@ -1,0 +1,20 @@
+#header{
+	background: #3B1A13;
+}
+
+input[type="submit"]{
+	background: linear-gradient(blue, red);
+}
+body{
+	background: brown;
+}
+#content{
+background: linear-gradient(to right, black 0% 50%, #1F1E1E 50%);
+}
+#footer{
+	background: #1F1E1E;
+}
+
+html{
+	background: brown;
+}

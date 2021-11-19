@@ -1,0 +1,33 @@
+img{
+	transition: transform 1s ;
+	white-space:nowrap;
+
+}
+form{
+	margin-right: 13px;
+	float: right;
+	padding-right: 30px;
+	
+	width: 150px;
+	height: 200px;
+	padding: 50px 100px 50px 90px;
+	background: linear-gradient(to right, black 0% 50%, #1F1E1E 50%);
+}
+
+form p{
+	font: 24px bold;
+	color: white;
+}
+
+img:hover{
+	transform: scale(1.5);
+}
+
+input[type="submit"]{ background: blue; 
+	margin-left: 40px;	
+	border-radius: 14px 14px 14px 14px;
+	width: 70px;
+	height: 30px;
+	font: 24px bold;
+	background: linear-gradient(blue,red);
+	}
